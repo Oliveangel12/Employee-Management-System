@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript">
+function addEmployee(event){
+	
+	event.preventDefault();
+	console.log('hello');
+	var name = document.getElementById('name_tf').value;
+	
+	var age = document.getElementById('age_tf').value;
+	
+	var employee = {
+			'name' : name,
+			'age': age
+	};
+	
+	console.log(employee);
+	return false;
+}</script>
+<meta charset="ISO-8859-1">
+<title>Employee Form</title>
+</head>
+<body>
+
+</body>
+</html>
